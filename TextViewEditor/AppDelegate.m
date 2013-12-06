@@ -11,6 +11,7 @@
 
 @implementation AppDelegate
 -(void) showNewView{
+    //added comments
     RootViewController * rvc = [[RootViewController alloc]init];
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:rvc];
     [self.window setRootViewController:nav];
