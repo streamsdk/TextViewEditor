@@ -13,4 +13,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #define DEFAULT_thumbImageWidth 260.0f
+    #define DEFAULT_thumbImageHeight 347.0f
+
 #endif
