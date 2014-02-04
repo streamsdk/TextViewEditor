@@ -19,6 +19,8 @@
 
 
 -(UIFont *)font{
+    
+    //add some comments sdfafas asf
     UIFont *curfont=[UIFont systemFontOfSize:17.0f];
     if (self.attributes !=nil) {
         CTFontRef fontRef=(__bridge CTFontRef)([self.attributes objectForKey:(NSString *)kCTFontAttributeName]);        
